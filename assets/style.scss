@@ -1,0 +1,66 @@
+
+
+*{
+	border: none;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.wrap {
+	margin: auto;
+
+	.section1{
+
+		.container {
+			min-height: 5em;
+			border:1px red solid;
+			text-align: center;
+		
+			header {
+				padding: 3em 0;
+			}
+
+			nav {
+
+				.navigation {
+					display: inline-flex;
+
+					li {
+						padding: 0 1em;
+					}
+				}
+			}
+		}
+	}
+
+	
+}
+
+
+
+
+
+
+
+/*All devices and mobile phone*/
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}
