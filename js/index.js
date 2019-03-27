@@ -4,7 +4,9 @@ var imageClick = function(img){
 	img.click(function(){
 		var src = $(this).attr('src');
 		popup.fadeIn();
-		popup.append('<img src='+ src +'>')
+		var content = $('<div><img src='+ src +'></div>')
+		content.append($(this).parent().find('.description').clone());
+		popup.append(content)
 	})
 
 	popup.click(function(){
